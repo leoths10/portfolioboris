@@ -28,20 +28,19 @@ export default function Hero() {
 
         {/* Avatar placeholder */}
         <div className="w-28 h-28 rounded-full mx-auto mb-6 bg-linear-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-4xl font-bold text-white shadow-lg shadow-blue-500/20">
-          B
+          JT
         </div>
 
         <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4">
           Bonjour, je suis{' '}
           <span className="bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-            Boris
+            Joris Texier
           </span>
         </h1>
 
-        <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-          Passionné par les réseaux et l'infrastructure système, je prépare mon
-          BTS SIO option SISR. Je conçois et administre des architectures réseaux
-          sécurisées.
+        <p className="text-gray-500 dark:text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
+          Étudiant de 21 ans au lycée Paul Louis Courier à Tours, en 2ème année de
+          BTS SIO option SISR. Passionné par les réseaux, l'infrastructure et la cybersécurité.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

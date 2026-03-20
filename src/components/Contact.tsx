@@ -82,9 +82,9 @@ export default function Contact() {
         {/* Liens sociaux */}
         <div className="flex justify-center gap-6 mt-10">
           {[
-            { label: 'GitHub', icon: '💻', href: '#' },
-            { label: 'LinkedIn', icon: '🔗', href: '#' },
-            { label: 'Email', icon: '✉️', href: 'mailto:boris@exemple.fr' },
+            { label: 'GitHub', icon: '💻', href: 'https://github.com/Joris-Texier' },
+            { label: 'LinkedIn', icon: '🔗', href: 'https://www.linkedin.com/in/joris-texier-0939b7314/' },
+            { label: 'Email', icon: '✉️', href: 'mailto:joris.texier@exemple.fr' },
           ].map((s) => (
             <a
               key={s.label}

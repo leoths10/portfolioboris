@@ -8,16 +8,18 @@ export default function About() {
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mt-2 mb-6">Qui suis-je ?</h2>
           <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
             <p>
-              Je suis <span className="text-gray-900 dark:text-white font-medium">Boris</span>, étudiant en 2ème année de BTS SIO
-              option <span className="text-blue-500 dark:text-blue-400 font-medium">SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</span>.
+              Je m'appelle <span className="text-gray-900 dark:text-white font-medium">Joris Texier</span>, âgé de 21 ans,
+              étudiant au lycée <span className="text-blue-500 dark:text-blue-400 font-medium">Paul Louis Courier à Tours</span> en
+              2ème année de BTS SIO option <span className="text-blue-500 dark:text-blue-400 font-medium">SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</span>.
             </p>
             <p>
-              Passionné par les infrastructures informatiques, j'ai acquis des compétences solides en
-              administration réseau, systèmes Windows et Linux, virtualisation et sécurité informatique.
+              J'ai toujours été attiré par l'informatique et les nouvelles technologies.
+              C'est tout naturellement que je me suis tourné vers ce secteur d'études.
             </p>
             <p>
-              Mon objectif est d'intégrer un poste d'administrateur systèmes et réseaux ou de
-              continuer mes études en licence professionnelle dans le domaine des réseaux et de la cybersécurité.
+              J'ai eu l'opportunité d'effectuer de nombreux stages en milieu professionnel dans
+              différentes entreprises disposant d'un service informatique (Audilab, DGFIP, STMicroelectronics).
+              Mon objectif est d'intégrer un poste d'administrateur systèmes et réseaux.
             </p>
           </div>
 
@@ -25,9 +27,9 @@ export default function About() {
           <div className="mt-8 grid grid-cols-2 gap-4">
             {[
               { label: 'Formation', value: 'BTS SIO SISR' },
-              { label: 'Localisation', value: 'France' },
+              { label: 'Localisation', value: 'Tours (37)' },
               { label: 'Disponibilité', value: 'Stage / Alternance' },
-              { label: 'Statut', value: '2ème année' },
+              { label: 'Âge', value: '21 ans' },
             ].map((info) => (
               <div key={info.label} className="bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-4">
                 <p className="text-gray-500 text-xs uppercase tracking-wider mb-1">{info.label}</p>
@@ -41,10 +43,11 @@ export default function About() {
         <div className="space-y-4">
           <h3 className="text-gray-900 dark:text-white font-semibold text-xl mb-6">Parcours & Certifications</h3>
           {[
-            { year: '2024 – 2026', title: 'BTS SIO – Option SISR', sub: 'Lycée / CFA – France', icon: '🎓' },
-            { year: '2024', title: 'Cisco CCNA – Introduction to Networks', sub: 'NetAcad – Auto-formation', icon: '📜' },
-            { year: '2023', title: 'Baccalauréat NSI', sub: 'Mention Bien', icon: '🏅' },
-            { year: '2023', title: 'Stage technicien réseau', sub: 'Administration réseaux & postes', icon: '💼' },
+            { year: '2024 – 2026', title: 'BTS SIO – Option SISR', sub: 'Lycée Paul Louis Courier – Tours', icon: '🎓' },
+            { year: '2025', title: 'Ethical Hacker – NetAcad', sub: 'Cisco Networking Academy', icon: '🛡️' },
+            { year: '2024', title: 'Cisco CCNAv7 – Introduction to Networks', sub: 'NetAcad – Certification obtenue', icon: '📜' },
+            { year: '2024', title: 'ANSSI – MOOC Cybersécurité', sub: 'Sécurité réseaux, cryptographie, législation', icon: '🔐' },
+            { year: '2023 – 2024', title: 'Stages professionnels', sub: 'Audilab · DGFIP · STMicroelectronics', icon: '💼' },
           ].map((item, i) => (
             <div key={i} className="flex gap-4 bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-4 hover:border-blue-500/30 transition-colors">
               <div className="text-2xl">{item.icon}</div>

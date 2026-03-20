@@ -3,25 +3,25 @@ const skills = [
     category: 'Réseaux',
     icon: '🌐',
     color: 'blue',
-    items: ['Cisco IOS', 'VLAN / VTP', 'Routage OSPF / RIP', 'NAT / PAT', 'Wi-Fi / 802.11'],
+    items: ['Cisco IOS (CCNAv7)', 'VLAN / VTP / STP', 'Routage OSPF / RIP', 'NAT / PAT', 'Wi-Fi / 802.11'],
   },
   {
     category: 'Systèmes',
     icon: '🖥️',
     color: 'cyan',
-    items: ['Windows Server', 'Linux (Debian/Ubuntu)', 'Active Directory', 'DNS / DHCP', 'Virtualisation (VMware)'],
+    items: ['Windows Server 2019/2022', 'Active Directory / GPO', 'Linux Debian / Ubuntu', 'DNS / DHCP', 'VMware / VirtualBox'],
   },
   {
-    category: 'Sécurité',
+    category: 'Cybersécurité',
     icon: '🔒',
     color: 'violet',
-    items: ['Firewall pfSense', 'VPN IPsec / SSL', 'SSH / PKI', 'Supervision Zabbix', 'Sauvegarde / PRA'],
+    items: ['Ethical Hacking (NetAcad)', 'ANSSI MOOC Cybersécurité', 'Firewall pfSense', 'VPN IPsec / SSL', 'Durcissement AD'],
   },
   {
-    category: 'Développement',
-    icon: '💻',
+    category: 'Outils & Méthodes',
+    icon: '⚙️',
     color: 'emerald',
-    items: ['HTML / CSS', 'Python', 'Bash scripting', 'PowerShell', 'SQL'],
+    items: ['Notion (Agile / Scrum)', 'Bash / PowerShell', 'Packet Tracer / GNS3', 'Git / GitHub', 'Documentation technique'],
   },
 ]
 

@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <span className="text-lg font-bold text-gray-900 dark:text-white tracking-tight">
-          Boris<span className="text-blue-400">.</span>LeSisr
+          Joris<span className="text-blue-400">.</span>SISR
         </span>
 
         {/* Desktop links */}
